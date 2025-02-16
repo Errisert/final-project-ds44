@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from ppredict_price_modul import price_prediction, model, encoder, scaler
+from predict_price_modul import price_prediction, model, encoder, scaler
 
 # Mengatur Layout Halaman
 st.set_page_config(layout="wide")
