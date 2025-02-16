@@ -82,5 +82,3 @@ if model is None:
 else: #Jika model tersedia, lakukan prediksi harga
     predicted_price = price_prediction(carat, cut, x, y, z, color, depth, clarity, table, model, encoder, scaler)
     st.write(f"### 💰 Estimated Price: **{predicted_price}**")
-
-print("Encoder categories:", encoder.categories_)
