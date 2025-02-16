@@ -5,12 +5,11 @@ from predict_price_modul import price_prediction, model, encoder, scaler
 # Mengatur Layout Halaman
 st.set_page_config(layout="wide")
 
-# Meletakkan judul dan gambar di tengah
-col1, col2, col3 = st.columns([1, 2, 1])
+st.markdown("""
+    <h1 style='text-align: center'>DIAMOND PRICE CALCULATOR 💎</h1>
+""", unsafe_allow_html=True)
 
-with col2:
-    st.title("DIAMOND PRICE CALCULATOR 💎")
-
+# Meletakkan gambar di tengah
 col1, col2, col3 = st.columns([1,2,1])  # Membagi layout menjadi tiga kolom dengan kolom tengah lebih besar
 
 with col2:  
