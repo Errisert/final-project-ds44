@@ -18,14 +18,14 @@ with col2:
 # Meletakkan informasi variabel
 st.subheader("📜 Diamond Information")
 df_info = pd.DataFrame({
-    "Variable": ["Carat", "Cut", "Color", "Clarity", "Table", "Depth", "X", "Y", "Z"],
+    "Variable": ["Carat", "Cut", "Color", "Clarity", "Depth", "Table", "X", "Y", "Z"],
     "Description": [
         "Berat berlian dalam satuan carat.",
         "Kualitas potongan berlian (Fair, Good, Very Good, Premium, Ideal).",
         "Warna berlian dari J (kekuningan) hingga D (tidak berwarna).",
         "Kejernihan berlian dari I1 (terburuk) hingga IF (terjernih).",
-        "Lebar bagian atas berlian dalam persen.",
         "Kedalaman berlian dalam persen.",
+        "Lebar bagian atas berlian dalam persen.",
         "Panjang berlian dalam mm.",
         "Lebar berlian dalam mm.",
         "Tinggi berlian dalam mm."
